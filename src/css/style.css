@@ -11,6 +11,13 @@
 }
 .menu .logo-e-nome{
     display: flex;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 800;
+    /* line-height: 24px; */
+    /* letter-spacing: 0em; */
+    /* text-align: left; */
+
     
 }
 .menu .logo-e-nome img:first-child{
@@ -20,19 +27,27 @@
     display:flex;
 }
 .menu .menu-navegacao ul{
-    width: 25rem;
+    width: 25rem; 
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     
+    
 }
 
 .menu .menu-navegacao .btn-nav{
-    padding: 10px 40px;
+    padding: 10px ;
     text-align: center;
     text-decoration: none;
     color:black;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    /* line-height: 18px; */
+    /* letter-spacing: 0em; */
+    /* text-align: left; */
+
     
 }
 .menu .menu-navegacao .btn-nav:hover{
@@ -48,6 +63,13 @@
     background-color:  #5BC241;
     color:white;
     border-radius: 10px;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 300;
+    /* line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left; */
+
 
 }
 
@@ -86,6 +108,7 @@
    }
    .menu .menu-navegacao .btn-nav{
     font-size: 2.2rem;
+    padding: 10px 40px;
    }
    .menu .menu-navegacao .btn-cadastre-se{
     margin:auto;
